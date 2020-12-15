@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "test": "jest",
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.build.json",
     "release": "node scripts/release.js"
   },
   "devDependencies": {
