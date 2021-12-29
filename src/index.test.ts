@@ -1,4 +1,4 @@
-import { add } from './index'
+import { add } from './main'
 
 describe('test', () => {
   it('add', () => {
