@@ -1,5 +1,6 @@
 {
   "name": "tpl-node-cli",
+  "description": "Fast way to build node CLI application without bundle",
   "version": "0.0.1",
   "main": "src/export.ts",
   "types": "src/export.ts",
