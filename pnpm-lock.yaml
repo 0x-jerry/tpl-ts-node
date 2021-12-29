@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@0x-jerry/x-release': ^0.1.1
+  '@0x-jerry/x-release': ^0.2.0
   '@types/debug': ^4.1.7
   '@types/jest': ^27.0.3
   '@types/node': ^17.0.5
@@ -30,7 +30,7 @@ dependencies:
   unconfig: registry.npmmirror.com/unconfig/0.2.2
 
 devDependencies:
-  '@0x-jerry/x-release': registry.npmmirror.com/@0x-jerry/x-release/0.1.1
+  '@0x-jerry/x-release': registry.npmmirror.com/@0x-jerry/x-release/0.2.0
   '@types/debug': registry.npmmirror.com/@types/debug/4.1.7
   '@types/jest': registry.npmmirror.com/@types/jest/27.0.3
   '@types/node': registry.npmmirror.com/@types/node/17.0.5
@@ -1498,10 +1498,10 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  registry.npmmirror.com/@0x-jerry/x-release/0.1.1:
-    resolution: {integrity: sha512-w364DtwE475EnI+3qk3eZFRWt39aTtiT3n3XEC8KurPZQfl8IXNcl1cjRYd8Oq0xPk2YHOM8Ggei/hsbDvqOCQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@0x-jerry/x-release/download/@0x-jerry/x-release-0.1.1.tgz}
+  registry.npmmirror.com/@0x-jerry/x-release/0.2.0:
+    resolution: {integrity: sha512-1nr2S8llsBplm/z7Wqa1PnT92iaUPyCpc2dqq35Qi8OAjHnDSYv+aRD/uND2YQLcjR5cU3xMIC+EpRhbU1+ftQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@0x-jerry/x-release/download/@0x-jerry/x-release-0.2.0.tgz}
     name: '@0x-jerry/x-release'
-    version: 0.1.1
+    version: 0.2.0
     hasBin: true
     dependencies:
       cac: registry.npmmirror.com/cac/6.7.12

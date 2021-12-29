@@ -4,15 +4,16 @@ The fast way to build a CLI application without bundle. Support dynamic import `
 
 Todo:
 
-1. [ ] Change name and bin property of `package.json`.
+1. [ ] Change name, bin and version property of `package.json`.
 2. [ ] Change `confFileName` in `src/const.ts`.
-3. [ ] Rewrite this file.
+3. [ ] Change or delete `x.release.conf.ts`.
+4. [ ] Rewrite this file.
 
 Develop:
 
 - `src/export.ts` for export some variables used in this CLI application.
-- `src/main.ts` for CLI application entry.
-- `src/commands/*` module in this folder will auto installed at runtime.
+- `src/main.ts` is CLI application entry.
+- `src/commands/*` modules in this folder will auto installed at runtime.
 
 limitation:
 
