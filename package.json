@@ -1,7 +1,7 @@
 {
   "name": "tpl-node-cli",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "src/export.ts",
   "types": "src/export.ts",
   "license": "MIT",
