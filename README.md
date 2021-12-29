@@ -6,10 +6,11 @@ Todo:
 
 1. [ ] Change name and bin property of `package.json`
 
-Usage:
+Develop:
 
-`src/export.ts` for export some variables used in this CLI application.
-`src/main.ts` for CLI application entry.
+- `src/export.ts` for export some variables used in this CLI application.
+- `src/main.ts` for CLI application entry.
+- `src/commands/*` module in this folder will auto installed in runtime.
 
 limitation:
 
