@@ -6,4 +6,4 @@ register({
 })
 
 // start main
-require('./src/main')
+module.exports = require('./src/main')

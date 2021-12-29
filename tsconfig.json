@@ -7,6 +7,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "lib": ["ESNext"],
+    "resolveJsonModule": true,
     "outDir": "dist"
   },
   "exclude": ["node_modules"]
