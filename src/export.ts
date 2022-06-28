@@ -1,4 +1,4 @@
-// Export variable should be here, for example export a `defineConfig` function.
+// Export variable should be defined here, for example export a `defineConfig` function.
 
 import { UserConfig } from './types'
 
