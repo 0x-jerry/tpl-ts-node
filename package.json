@@ -1,7 +1,7 @@
 {
-  "name": "tpl-node-cli",
+  "name": "",
   "description": "",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "./dist/export.js",
   "types": "./dist/export.d.ts",
   "type": "module",
@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "tsx dev.ts",
     "build": "npm run build:cli && npm run build:lib",
-    "build:cli": "tsup src/cli.ts --format esm",
+    "build:cli": "tsup src/cli.ts --format esm --clean",
     "build:lib": "tsup src/export.ts --format esm --dts",
     "release": "x-release",
     "test": "vitest --passWithNoTests"
