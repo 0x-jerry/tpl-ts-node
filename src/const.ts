@@ -2,6 +2,6 @@ export { version } from '../package.json'
 
 import { bin } from '../package.json'
 
-export const confFileName = 'x.cli'
+export const name = Object.keys(bin || {}).at(0) || 'x-cli'
 
-export const name = Object.keys(bin || {})[0]
+export const confFileName = name
