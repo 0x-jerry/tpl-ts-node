@@ -1,7 +1,7 @@
-import pkg from '../package.json'
+import { version, bin } from '../package.json'
 
-export const version = pkg.version
+export { version }
 
-export const name = Object.keys(pkg.bin || {}).at(0) || 'x-cli'
+export const name = Object.keys(bin || {}).at(0) || 'x-cli'
 
 export const confFileName = name

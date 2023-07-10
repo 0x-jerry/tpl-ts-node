@@ -1,12 +1,13 @@
-import { CAC } from 'cac'
-import { version, name } from './const'
+import { sliver, type ActionParsedArgs } from '@0x-jerry/silver'
+import { logger } from './utils/dev'
 
-const cli = new CAC(name)
+sliver`
+@help @autocompletion
 
-cli
-  .version(version)
-  .help()
-  .command('')
-  .action(() => cli.outputHelp())
+x-cli [@type:name], A tiny example. ${defaultFn}
+`
 
-cli.parse()
+function defaultFn(params: string[], arg: ActionParsedArgs) {
+  //
+  logger.log('params %s, arg %o', params, arg)
+}
