@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.1.4
     version: 0.1.4
   '@0x-jerry/utils':
-    specifier: ^1.18.0
-    version: 1.18.0
+    specifier: ^2.0.0
+    version: 2.0.0
   debug:
     specifier: ^4.3.4
     version: 4.3.4
@@ -66,13 +66,6 @@ packages:
       '@0x-jerry/utils': 2.0.0
       lodash-es: 4.17.21
       minimist: 1.2.8
-    dev: false
-
-  /@0x-jerry/utils@1.18.0:
-    resolution: {integrity: sha512-EHKJSAI6H1etcFJv2jNRBV9YvkgeEvg2Ln5QJf0Uhhzg1U/CZgXTJNU35N5R545AlDC9pqxOv1Ojt4CI7iLNiQ==}
-    dependencies:
-      fflate: 0.8.0
-      nanoid: 4.0.2
     dev: false
 
   /@0x-jerry/utils@2.0.0:
