@@ -29,8 +29,8 @@ dependencies:
 
 devDependencies:
   '@0x-jerry/x-release':
-    specifier: ^0.3.8
-    version: 0.3.8
+    specifier: ^0.4.0
+    version: 0.4.0
   '@types/debug':
     specifier: ^4.1.8
     version: 4.1.8
@@ -75,8 +75,8 @@ packages:
       nanoid: 4.0.2
     dev: false
 
-  /@0x-jerry/x-release@0.3.8:
-    resolution: {integrity: sha512-ERXmuxa+WYvLhP1WRPdRhz70AukKMFzgLcVD3JYNSZgo4U3avq87F6Jk8Kg28X8A5cEDo9pW+pGi8bB4puX9kw==}
+  /@0x-jerry/x-release@0.4.0:
+    resolution: {integrity: sha512-oE+MgEG5hbY5cCt/FeaEfIBb3xNgJVOm3jZCrN3OgQzx0DgRtzPFQVpVfpJ4MHMMqRr1N0NPfNZp0UvHLV/n+w==}
     hasBin: true
     dependencies:
       '@0x-jerry/load-pkg': 0.1.2
