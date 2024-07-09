@@ -28,22 +28,21 @@
     "test": "vitest --passWithNoTests"
   },
   "dependencies": {
-    "@0x-jerry/silver": "0.1.5",
-    "@0x-jerry/utils": "^2.0.0",
-    "debug": "^4.3.4",
-    "execa": "^8.0.0",
-    "picocolors": "^1.0.0",
+    "@0x-jerry/silver": "0.1.8",
+    "@0x-jerry/utils": "^2.4.2",
+    "debug": "^4.3.5",
+    "picocolors": "^1.0.1",
     "prompts": "^2.4.2",
-    "unconfig": "^0.3.10"
+    "unconfig": "^0.4.5"
   },
   "devDependencies": {
-    "@0x-jerry/x-release": "^0.4.0",
-    "@types/debug": "^4.1.8",
-    "@types/node": "^20.4.9",
-    "@types/prompts": "^2.4.4",
-    "tsup": "^8.0.0",
-    "tsx": "^4.0.0",
-    "typescript": "^5.1.6",
-    "vitest": "^0.34.1"
+    "@0x-jerry/x-release": "^2.2.2",
+    "@types/debug": "^4.1.12",
+    "@types/node": "^20.14.10",
+    "@types/prompts": "^2.4.9",
+    "tsup": "^8.1.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.1"
   }
 }
