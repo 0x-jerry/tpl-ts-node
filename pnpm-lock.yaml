@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@0x-jerry/silver':
-    specifier: 0.1.8
-    version: 0.1.8
+    specifier: 0.1.9
+    version: 0.1.9
   '@0x-jerry/utils':
     specifier: ^2.4.2
     version: 2.4.2
@@ -56,8 +56,8 @@ packages:
     resolution: {integrity: sha512-OsG9WZfCDzLaIC5t7HNHAYdpvZEf5efs/+fLEXsbOQr3IdZyMuWA27utAOsrNwTfl1BCgr6+r048ZyMd9YE72Q==}
     dev: true
 
-  /@0x-jerry/silver@0.1.8:
-    resolution: {integrity: sha512-9+BfA8wOofaXxv2yxKubgZfpfyCMVjLkHrweuYYEJY778lV/bAxQfSvKXmd2ITZJ/C9O8jBvh7IVgP/KGanZXg==}
+  /@0x-jerry/silver@0.1.9:
+    resolution: {integrity: sha512-tit7blsEoEk4+ffbU6uYguL6jvcWsnC6G0g9wEs6wuZwlMpoCt8nNlPiKr84ziY9mwm+ss4xChpLVg3SRf8DWg==}
     engines: {node: '>= 18'}
     dependencies:
       '@0x-jerry/utils': 2.4.2
@@ -946,6 +946,7 @@ packages:
     resolution: {integrity: sha512-WdOOppmUNU+IbZ0PaDiTst80zjnrOkyJNHoKupIcVyU8Lvla3Ugx94VzkQ32Ijqd7UhHJy75gNWDMUekcrSJ6g==}
     engines: {node: '>=12'}
     hasBin: true
+    requiresBuild: true
     optionalDependencies:
       '@esbuild/aix-ppc64': 0.20.2
       '@esbuild/android-arm': 0.20.2
@@ -975,6 +976,7 @@ packages:
     resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
     engines: {node: '>=12'}
     hasBin: true
+    requiresBuild: true
     optionalDependencies:
       '@esbuild/aix-ppc64': 0.21.5
       '@esbuild/android-arm': 0.21.5

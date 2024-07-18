@@ -28,7 +28,7 @@
     "test": "vitest --passWithNoTests"
   },
   "dependencies": {
-    "@0x-jerry/silver": "0.1.8",
+    "@0x-jerry/silver": "0.1.9",
     "@0x-jerry/utils": "^2.4.2",
     "debug": "^4.3.5",
     "picocolors": "^1.0.1",
