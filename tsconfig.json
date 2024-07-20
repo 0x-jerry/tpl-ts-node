@@ -8,10 +8,10 @@
 
     "esModuleInterop": true,
     "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
 
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src", "dev.ts"]
 }

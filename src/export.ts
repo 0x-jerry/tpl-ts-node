@@ -1,8 +1,8 @@
 // Export variable should be defined here, for example export a `defineConfig` function.
 
-import { UserConfig } from './types'
+import type { UserConfig } from './types'
 
-export { UserConfig }
+export type { UserConfig }
 
 export function defineConfig(conf: UserConfig) {
   return conf

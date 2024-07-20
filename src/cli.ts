@@ -1,10 +1,11 @@
 import { sliver, type ActionParsedArgs } from '@0x-jerry/silver'
 import { logger } from './utils/dev'
+import { version } from '../package.json'
 
 sliver`
-@help @autocompletion
+v${version} @autocompletion
 
-x-cli [@type:name], A tiny example. ${defaultFn}
+cli [@type:name], A tiny example. ${defaultFn}
 `
 
 function defaultFn(params: string[], arg: ActionParsedArgs) {
