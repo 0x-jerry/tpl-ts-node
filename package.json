@@ -39,7 +39,7 @@
   "devDependencies": {
     "@0x-jerry/x-release": "^2.2.2",
     "@types/debug": "^4.1.12",
-    "@types/node": "^20.14.11",
+    "@types/node": "^22.0.0",
     "@types/prompts": "^2.4.9",
     "tsup": "^8.2.0",
     "tsx": "^4.16.2",
