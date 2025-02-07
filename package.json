@@ -34,7 +34,7 @@
     "debug": "^4.3.5",
     "picocolors": "^1.0.1",
     "prompts": "^2.4.2",
-    "unconfig": "^0.5.0"
+    "unconfig": "^7.0.0"
   },
   "devDependencies": {
     "@0x-jerry/x-release": "^2.2.2",
